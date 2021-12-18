@@ -1,0 +1,59 @@
+.omnichain {
+    font-size: 76px;
+    line-height: 80px;
+}
+.color {
+    color : #27ecfe;
+}
+.release {
+    font-size: 30px;
+}
+.line-heigh {
+    line-height: 35px;
+}
+.button-size {
+    font-size: 35px;
+    width: 400px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    background: linear-gradient(to left, #0066ff 0%, #00ccff 100%);
+}
+.top {
+    margin-top: 70px;
+}
+.search_back {
+    background-color:#0a162e59;
+    width: 100%;
+    height:95%;
+    border-radius: 5%;
+    text-align: center;
+}
+.search_top {
+    padding-top: 50px;
+    color:white !important;
+}
+.input_style {
+    background: transparent !important;
+    border-left: 0;
+    padding-left: 10px;
+    font-size: 27px;
+    margin-right:20px;
+    border-radius: 5px;
+}
+.search_icon {
+    background: none;
+    color: white;
+    border-right: 0;
+    font-size: 27px;
+    border-radius: 5px;
+}
+.group-padding {
+    padding: 40px;
+}
+.star {
+    background: none;
+    color: white;
+    border-right: 0;
+    font-size: 27px;
+    border-radius: 5px;
+}
