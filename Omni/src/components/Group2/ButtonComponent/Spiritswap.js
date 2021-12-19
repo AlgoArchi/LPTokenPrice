@@ -7,7 +7,7 @@ import './style.css';
 function Spiritswap_Button(){
   return (
     <Button className='button_background'>
-      <Image src={ Spiritswap } className='button_image' /><span className='left'>Uniswap</span>
+      <Image src={ Spiritswap } className='button_image' /><span className='left'>Spiritswap</span>
     </Button>
   )
 }

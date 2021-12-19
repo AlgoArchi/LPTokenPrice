@@ -9,10 +9,6 @@
     margin-top: 200px;
 }
 
-.dexes {
-    font-size: 50px;
-}
-
 .group_icon {
     background-color:#142544a1;
     width: 100%;
@@ -24,7 +20,7 @@
 }
 
 .iconsize {
-    width: 75px;
+    width: 50px;
     height: 65px;
     padding-bottom: 10px;
 }

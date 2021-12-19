@@ -38,22 +38,23 @@
     padding-left: 10px;
     font-size: 27px;
     margin-right:20px;
-    border-radius: 5px;
+    border-radius: 0px 6px 6px 0px;
 }
 .search_icon {
     background: none;
     color: white;
     border-right: 0;
     font-size: 27px;
-    border-radius: 5px;
+    border-radius: 6px 0px 0px 6px;
 }
 .group-padding {
     padding: 40px;
+    display: flex;
 }
 .star {
-    background: none;
+    background: transparent;
     color: white;
-    border-right: 0;
     font-size: 27px;
-    border-radius: 5px;
+    border-radius: 6px;
+    border: 1px solid #fff;
 }

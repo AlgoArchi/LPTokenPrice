@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Button, InputGroup, FormControl, } from "react-bootstrap";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { BsFillStarFill } from "react-icons/bs";
-import { FaSearch } from "react-icons/fa";
+import { FiSearch } from "react-icons/fi";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Release.css';
 
@@ -21,11 +21,11 @@ function Release(){
         <Col xxl={6} className='text-white'>
           <div className='search_back'>
             <p className='release search_top text-white'>Complete multi chain<br/>swaps in 1 click!</p>
-            <InputGroup className="text-white group-padding">
-              <InputGroup.Text className='search_icon'><FaSearch/></InputGroup.Text>
+            <div className="text-white group-padding">
+              <InputGroup.Text className='search_icon'><FiSearch/></InputGroup.Text>
               <FormControl className='input_style text-white' placeholder="Search name or paste address" size="lg"/>
-              <InputGroup.Text className='star'><BsFillStarFill /></InputGroup.Text>
-            </InputGroup>
+              <Button className='star'><BsFillStarFill /></Button>
+            </div>
           </div>
         </Col>
       </Row>

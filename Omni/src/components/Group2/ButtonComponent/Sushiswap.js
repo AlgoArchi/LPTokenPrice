@@ -7,7 +7,7 @@ import './style.css';
 function Sushiswap_Button(){
   return (
     <Button className='button_background'>
-      <Image src={ Sushiswap } className='button_image' /><span className='left'>Uniswap</span>
+      <Image src={ Sushiswap } className='button_image' /><span className='left'>Sushiswap</span>
     </Button>
   )
 }

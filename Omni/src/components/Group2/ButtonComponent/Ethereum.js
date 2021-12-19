@@ -7,7 +7,7 @@ import './style.css';
 function Ethereum_Button(){
   return (
     <Button className='button_background'>
-      <Image src={ Ethereum } className='button_image' /><span className='left'>Uniswap</span>
+      <Image src={ Ethereum } className='button_image' /><span className='left'>Ethereum</span>
     </Button>
   )
 }

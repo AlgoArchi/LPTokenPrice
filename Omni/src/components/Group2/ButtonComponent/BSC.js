@@ -7,7 +7,7 @@ import './style.css';
 function BSC_Button(){
   return (
     <Button className='button_background'>
-      <Image src={ BSC } className='button_image' /><span className='left'>Uniswap</span>
+      <Image src={ BSC } className='button_image' /><span className='left'>BSC</span>
     </Button>
   )
 }

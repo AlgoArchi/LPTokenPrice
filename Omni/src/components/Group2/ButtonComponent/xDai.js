@@ -7,7 +7,7 @@ import './style.css';
 function xDai_Button(){
   return (
     <Button className='button_background'>
-      <Image src={ xDai } className='button_image' /><span className='left'>Uniswap</span>
+      <Image src={ xDai } className='button_image' /><span className='left'>xDai</span>
     </Button>
   )
 }

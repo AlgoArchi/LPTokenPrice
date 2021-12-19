@@ -7,7 +7,7 @@ import './style.css';
 function Ox_Button(){
   return (
     <Button className='button_background'>
-      <Image src={ Ox } className='button_image' /><span className='left'>Uniswap</span>
+      <Image src={ Ox } className='button_image' /><span className='left'>Ox Protocol</span>
     </Button>
   )
 }

@@ -7,7 +7,7 @@ import './style.css';
 function Solarbeam_Button(){
   return (
     <Button className='button_background'>
-      <Image src={ Solarbeam } className='button_image' /><span className='left'>Uniswap</span>
+      <Image src={ Solarbeam } className='button_image' /><span className='left'>Solarbeam</span>
     </Button>
   )
 }

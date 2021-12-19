@@ -7,7 +7,7 @@ import './style.css';
 function Fantom_Button(){
   return (
     <Button className='button_background'>
-      <Image src={ Fantom } className='button_image' /><span className='left'>Uniswap</span>
+      <Image src={ Fantom } className='button_image' /><span className='left'>Fantom</span>
     </Button>
   )
 }

@@ -7,7 +7,7 @@ import './style.css';
 function Pancakeswap_Button(){
   return (
     <Button className='button_background'>
-      <Image src={ Pancakeswap } className='button_image' /><span className='left'>Uniswap</span>
+      <img src={ Pancakeswap } className='button_image' /><span>Pancakeswap</span>
     </Button>
   )
 }

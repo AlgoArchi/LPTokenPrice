@@ -1,15 +1,15 @@
 import React from 'react';
 import { Image, Button } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import linch from '../../../images/linch.png'
+import Linch from '../../../images/linch.png';
 import './style.css';
 
-function linch_Button(){
+function Linch_Button(){
   return (
     <Button className='button_background'>
-      <Image src={ linch } className='button_image' /><span className='left'>Uniswap</span>
+      <Image src={ Linch } className='button_image' /><span className='left'>Linch</span>
     </Button>
   )
 }
 
-export default linch_Button;
+export default Linch_Button;

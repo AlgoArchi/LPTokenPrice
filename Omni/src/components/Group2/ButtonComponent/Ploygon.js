@@ -7,7 +7,7 @@ import './style.css';
 function Ploygon_Button(){
   return (
     <Button className='button_background'>
-      <Image src={ Ploygon } className='button_image' /><span className='left'>Uniswap</span>
+      <Image src={ Ploygon } className='button_image' /><span className='left'>Ploygon</span>
     </Button>
   )
 }

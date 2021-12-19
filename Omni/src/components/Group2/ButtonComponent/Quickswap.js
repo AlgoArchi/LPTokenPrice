@@ -7,7 +7,7 @@ import './style.css';
 function Quickswap_Button(){
   return (
     <Button className='button_background'>
-      <Image src={ Quickswap } className='button_image' /><span className='left'>Uniswap</span>
+      <Image src={ Quickswap } className='button_image' /><span className='left'>Quickswap</span>
     </Button>
   )
 }

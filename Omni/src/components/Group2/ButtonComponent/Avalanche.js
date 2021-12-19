@@ -7,7 +7,7 @@ import './style.css';
 function Avalanche_Button(){
   return (
     <Button className='button_background'>
-      <Image src={ Avalanche } className='button_image' /><span className='left'>Uniswap</span>
+      <Image src={ Avalanche } className='button_image' /><span className='left'>Avalanche</span>
     </Button>
   )
 }

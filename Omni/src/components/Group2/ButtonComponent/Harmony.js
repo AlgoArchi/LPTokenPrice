@@ -7,7 +7,7 @@ import './style.css';
 function Harmony_Button(){
   return (
     <Button className='button_background'>
-      <Image src={ Harmony } className='button_image' /><span className='left'>Uniswap</span>
+      <Image src={ Harmony } className='button_image' /><span className='left'>Harmony</span>
     </Button>
   )
 }
