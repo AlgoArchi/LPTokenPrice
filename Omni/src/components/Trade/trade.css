@@ -35,8 +35,9 @@
     padding-bottom: 20px;
 }
 .button_trade {
-    font-size: 35px;
-    width: 350px;
+    font-size: 30px;
+    height: 75px;
+    width: 300px;
     border-radius: 10px;
     border: 0;
     background: linear-gradient(to left, #0066ff 0%, #00ccff 100%);
@@ -55,13 +56,21 @@
 .cal_title {
 	display: flex;
 	justify-content: space-between;
-    font-size: 25px;
+    font-size: 30px;
 }
 .cal_change {
     display: flex;
 	justify-content: space-between;
 	margin-top: 50px;
 }
+
+.ehtereum_picture {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    margin-top: -30px;
+}
+
 .ETH_container {
 	display: block;
     display: flex;
@@ -88,7 +97,7 @@
 
 .ETH_amount_input_container input {
 	height: 32px;
-	width: 60%;
+	width: 55%;
 	border: none;
 	outline: none;
 	background: transparent !important;
@@ -97,8 +106,8 @@
     margin-left: 10px;
 }
 .ETH_amount_input_container button {
-	width: 30%;
-	height: 35px;
+	width: 35%;
+	height: 40px;
 	border-radius: 7px;
 	color: #fff;
 	margin-right: 10px;
@@ -119,6 +128,9 @@
     border: none;
     font-size: 18px;
 }
+.amount_info_button_right {
+    margin-left: 10px;
+}
 
 .calc_arrow {
 	display: flex;
@@ -132,4 +144,57 @@
     border: none;
     top:10px;
     margin-bottom: 30px;
+}
+
+.subscribe_container {
+    background: linear-gradient(to left, #3366ff 0%, #66ccff 100%);
+    width: 100%;
+    display: flex;
+    border: 0;
+    color: white;
+    margin: 150px auto 0;
+    padding: 50px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+.subscribe_content {
+    width: 100%;
+    position: relative;
+    display: flex;
+	justify-content: space-between;
+}
+
+.subscribe_input_container {
+    position: relative;
+	width: 645px;
+	height: 95px;
+	padding: 16px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-family: sans-serif;
+	color: #fff;
+    background-color: #fff;
+}
+
+
+.subscribe_input_container input {
+	height: 35px;
+	width: 58%;
+	border: none;
+	outline: none;
+	background: #fff;
+	font-size: 25px;
+    margin-left: 10px;
+}
+
+.subscribe_input_container button {
+	font-size: 30px;
+    height: 57px;
+    width: 210px;
+    border-radius: 10px;
+    border: 0;
+    background: linear-gradient(to left, #0066ff 0%, #00ccff 100%);
+
 }

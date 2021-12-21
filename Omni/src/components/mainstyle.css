@@ -1,0 +1,154 @@
+.omnichain {
+    font-size: 76px;
+    line-height: 80px;
+}
+.color {
+    color : #27ecfe;
+}
+
+.line-heigh {
+    line-height: 35px;
+}
+.start_trading_button {
+    font-size: 35px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-right: 80px;
+    background: linear-gradient(to left, #0066ff 0%, #00ccff 100%);
+}
+
+.top {
+    margin-top: 70px;
+}
+.search_back {
+    background-color:#0a162e59;
+    width: 100%;
+    height:95%;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.input_style {
+    background: transparent !important;
+    border-left: 0;
+    padding-left: 10px;
+    font-size: 27px;
+    margin-right:20px;
+    border-radius: 0px 6px 6px 0px;
+}
+.search_icon {
+    background: none;
+    color: white;
+    border-right: 0;
+    font-size: 27px;
+    border-radius: 6px 0px 0px 6px;
+}
+.group-padding {
+    padding: 40px;
+    display: flex;
+}
+.star {
+    background: transparent;
+    color: white;
+    font-size: 27px;
+    border-radius: 6px;
+    border: 1px solid #fff;
+    padding-top: 0;
+}
+
+.imgSize {
+    width: 100px;
+    height: 100px;
+}
+.GroupTop {
+    margin-top: 200px;
+}
+.para {
+    font-size: 30px;
+    line-height: 35px;
+}
+.space {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.graphsize {
+   width: 600px;
+   height: 600px;
+}
+
+.title {
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.button_2 {
+    font-size: 35px;
+    width: 100%;
+    border-radius: 10px;
+    border: 0;
+    background: linear-gradient(to left, #0066ff 0%, #00ccff 100%);
+}
+.button_1 {
+    font-size: 35px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #193569;
+    border: 0;
+}
+.group_icon {
+    background-color:#142544a1;
+    width: 100%;
+    height: 90px;
+    border-radius: 15px;
+    border: 0;
+    color: white;
+    font-size: 30px;
+}
+.buttonGroup_margin {
+    margin-top: 80px;
+}
+
+.icon_back {
+    background-color:#101e38a1;
+    width: 100%;
+    height: 130px;
+    border-radius: 15px;
+    font-size: 45px;
+    letter-spacing: 3px;
+    padding: 30px;
+    padding-left: 70px;
+    margin-bottom: 25px;
+}
+
+.iconsize {
+    width: 100px;
+    height: 90px;
+    padding-bottom: 20px;
+}
+
+.button2 {
+    font-size: 35px;
+    width: 310px;
+    margin-top: 25px;
+    margin-left: 20px;
+    background: linear-gradient(to left, #0066ff 0%, #00ccff 100%);
+}
+
+@media (max-width: 1200px) {
+    .top {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .top {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .top {
+        margin-top: 10px;
+    }
+}
