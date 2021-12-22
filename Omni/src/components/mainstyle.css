@@ -134,21 +134,3 @@
     margin-left: 20px;
     background: linear-gradient(to left, #0066ff 0%, #00ccff 100%);
 }
-
-@media (max-width: 1200px) {
-    .top {
-        margin-top: 50px;
-    }
-}
-
-@media (max-width: 767px) {
-    .top {
-        margin-top: 30px;
-    }
-}
-
-@media (max-width: 480px) {
-    .top {
-        margin-top: 10px;
-    }
-}
