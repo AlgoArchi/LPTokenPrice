@@ -368,7 +368,7 @@ Nav {
     margin-top:1.3rem;
 }
 .change_button_container {
-    margin-top:1.3rem;
+    
 }
 
 .subscribe_container {
@@ -683,6 +683,14 @@ Nav {
         width: 100%;
         font-size: 1.5rem;
     }
+    .ETH_amount_input_container {
+        width: 16rem;
+        height: 4.3rem;
+    }
+    .change_button_container button {
+        width: 100%;
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 400px) {
@@ -792,14 +800,7 @@ Nav {
 
 
 
-    .ETH_amount_input_container {
-        width: 16rem;
-        height: 4.3rem;
-    }
-    .change_button_container button {
-        width: 100%;
-        font-size: 1.5rem;
-    }
+    
     
     .subscribe_input_container {
         height: 3.5rem;
