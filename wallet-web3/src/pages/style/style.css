@@ -1,0 +1,26 @@
+.swap{
+    margin: 100px 0px 100px 0px;
+}
+
+.swap_title {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.market {
+    text-align: center;
+}
+.mechanism {
+    text-align: center;
+}
+.counter{
+    background-color: white;
+    margin: 100px 0px 100px 0px;
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.counter .day{
+    font-size: 20px;
+}
