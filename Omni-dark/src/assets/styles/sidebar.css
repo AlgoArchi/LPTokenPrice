@@ -1,0 +1,30 @@
+.sidebar-wrapper{
+    background-color: #0c162b;
+    height: 100vh;
+    width: 320px;
+    max-width: 420px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+}
+.menu-item{
+    padding:1rem 1.5rem;
+    color: white;
+    font-size: 20px;
+}
+.blankIcon{
+    width: 25px;
+    display: inline-block;
+}
+
+/* header styles below */
+.header-wrapper{
+    width: 100%;
+    text-align: right;
+    padding: 1rem 3rem;
+}
+.btn-trans{
+    background-color: transparent;
+    color:white;
+}
