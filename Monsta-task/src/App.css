@@ -2,6 +2,7 @@
 
 .App {
   background-image: url('./images/background.png');
+  height: 100vh !important;
 }
 
 html body {
