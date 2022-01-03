@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.App {
+  background-image: url('./images/background.png');
+}
+
+html body {
+	overflow-x: hidden;
+}
+html body {
+	color: var(--omni-base-02);
+	font-family: SF-Pro, sans-serif;
+	height: auto;
+	margin: 0;
+	min-width: 375px;
+	padding: 0;
+	position: relative;
+}
+html body button,
+html body input,
+html body main,
+html body select,
+html body textarea {
+	font-family: SF-Pro, sans-serif !important;
+}
+html,
+html body {
+	background: var(--main-background);
+	width: 100%;
+}
+html .gradient {
+	display: none;
+}
+html.dark .gradient {
+	display: block;
+}
+li,
+ul {
+	margin: unset;
+	padding: unset;
+}
+li {
+	list-style: none;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	appearance: none;
+	margin: 0;
+}
+input[type="number"] {
+	-webkit-appearance: textfield;
+	-moz-appearance: textfield;
+	appearance: textfield;
+}
+button {
+	border: none;
+	cursor: pointer;
+}

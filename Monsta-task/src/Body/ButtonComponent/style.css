@@ -1,0 +1,44 @@
+.button_background {
+    background-color:#142544a1;
+    width: 97%;
+    border-radius: 0.93rem;
+    border: 0;
+    color: white;
+    font-size: 1.5rem;
+    margin: 5px;
+    text-align: left;
+    padding-left:2.18rem;
+	height: 4.875rem;
+}
+
+.button_image {
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 0.43rem;
+}
+.left {
+    margin-left: 0.93rem;
+}
+
+@media (max-width: 1200px) {
+    .button_background {
+        font-size: 1.2rem;
+        height: 4rem;
+    }
+    .button_image {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+
+@media (max-width: 449px) {
+    .button_background {
+        font-size: 1rem;
+        height: 3rem;
+        padding-left: 1.3rem;
+    }
+    .button_image {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
