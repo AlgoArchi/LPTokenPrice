@@ -7,6 +7,7 @@ import { DAppProvider, ChainId } from "@usedapp/core";
 
 ReactDOM.render(
   <React.StrictMode>
+
     <DAppProvider>
       <App />
     </DAppProvider>

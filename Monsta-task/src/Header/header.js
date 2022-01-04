@@ -10,7 +10,23 @@ function Header() {
     const { activateBrowserWallet, account, chainId } = useEthers();
 
     const connectWallet = () => {
-        activateBrowserWallet();
+        // activateBrowserWallet();
+
+        window.monsta
+            .request({ method: 'eth_requestAccounts' })
+            .then(() => {
+                console.log("disconnect");
+                
+            })
+            .catch((err) => {
+                if (err.code === 4001) {
+                    // EIP-1193 userRejectedRequest error
+                    // If this happens, the user rejected the connection request.
+                    console.log('Please connect to Monsta.');
+                } else {
+                    console.error(err);
+                }
+            });
     }
 
     return (
