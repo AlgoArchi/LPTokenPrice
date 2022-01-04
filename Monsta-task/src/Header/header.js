@@ -3,7 +3,7 @@ import { Container, Navbar, Button } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/style.css';
 import { useEthers, ChainId } from "@usedapp/core";
-
+var btntext;
 
 function Header() {
 
@@ -11,16 +11,13 @@ function Header() {
 
     const connectWallet = () => {
         activateBrowserWallet();
-        if (account) {
-            alert('success')
-        }
     }
 
     return (
         <Navbar expand="xxl" className='white'>
             <Container className="justify-content-end">
                 <Navbar className='nav-item nav-link text-white'>
-                    <Button className='Nab_button' variant="primary" size="lg" onClick={connectWallet} >Connect Wallet</Button>
+                    <Button className='Nab_button' variant="primary" size="lg" onClick={connectWallet} >CONNECT WALLET</Button>
                 </Navbar>
 
             </Container>
