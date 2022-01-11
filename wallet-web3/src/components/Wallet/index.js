@@ -37,8 +37,9 @@ const ethEnabled = () => {
 
 const ConnectButton = () => {
 
-    return ( <
-        Button onClick = { ethEnabled } > Please Connect Wallet < /Button>
+    return ( 
+        
+        <Button onClick = { ethEnabled } > Please Connect Wallet </Button>
     );
 };
 
@@ -47,33 +48,23 @@ const ConnectButton = () => {
 const WalletBtn = () => {
 
 
-    return ( <
-        div >
-        <
-        Row >
-        <
-        Col md = { 4 } >
-        <
-        Label > My Wallet < /Label>  < /
-        Col > <
-        Col md = { 4 } >
-        <
-        /Col> <
-        Col md = { 4 } >
-        <
-        ConnectButton / >
-        <
-        /Col>  < /
-        Row > <
-        Row >
-        <
-        Col md = { 12 } >
-        <
-        WalletBody / >
-        <
-        /Col>  < /
-        Row > <
-        /div>
+    return ( 
+        <div>
+            <Row>
+                <Col md = { 4 } >
+                    <Label> My Wallet </Label>
+                </Col>
+                <Col md = { 4 } ></Col>
+                <Col md = { 4 }>
+                    <ConnectButton />
+                </Col>
+            </Row >
+            <Row>
+                <Col md = { 12 } >
+                    <WalletBody />
+                </Col>
+            </Row >
+        </div>
     );
 };
 
