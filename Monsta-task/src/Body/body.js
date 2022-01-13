@@ -3,15 +3,17 @@ import { Container, Button } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/style.css';
 
+
 function Mainbody() {
     const [salary, setSalary] = useState("");
-
-    function Swap() {
-
-    }
     function handlechange(event) {
         setSalary(event.target.value);
     }
+
+    const Swap = () => {
+        
+    }
+
     return (
         <div>
             <Container>
@@ -57,7 +59,7 @@ function Mainbody() {
             </Container>
         </div>
     )
-
+    
 }
 
 export default Mainbody;
