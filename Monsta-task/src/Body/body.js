@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Container, Button } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/style.css';
 
 function Mainbody() {
+    const [salary, setSalary] = useState("");
+
+    function Swap() {
+
+    }
+    function handlechange(event) {
+        setSalary(event.target.value);
+    }
     return (
         <div>
             <Container>
@@ -17,7 +25,7 @@ function Mainbody() {
                                 <div className='ETH_container'>
                                     <div className='ETH_amount_input_container'>
 
-                                        <input type='number' min={1} />
+                                        <input type='number' min={1} onChange={handlechange} />
                                         <button type='button'>
                                             MONI
                                         </button>
@@ -29,7 +37,7 @@ function Mainbody() {
 
                                 <div className='ETH_container'>
                                     <div className='ETH_amount_input_container'>
-                                        <input type='number' disabled />
+                                        <input type='number' value={salary} disabled />
                                         <button type='button'>
                                             STT
                                         </button>
@@ -39,7 +47,7 @@ function Mainbody() {
                             </div>
 
                             <div className='change_button_container'>
-                                <Button className='text-white audit_button'>Swap</Button>
+                                <Button className='text-white audit_button' onClick={Swap}>Swap</Button>
                             </div>
 
                         </div>
@@ -49,6 +57,7 @@ function Mainbody() {
             </Container>
         </div>
     )
+
 }
 
 export default Mainbody;
