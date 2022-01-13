@@ -147,6 +147,8 @@
 
 .footer_container {
     padding: 2.2vw 5vw;
+    display: flex;
+    align-items: center;
 }
 
 .iconsize {
@@ -155,10 +157,6 @@
     margin-right: 2rem;
     font-size: 3rem;
     color: white;
-}
-
-.instagram {
-    padding-top: 2rem !important;
 }
 
 .menuicon {
@@ -211,12 +209,14 @@
     }
     .footer_container {
         text-align: center;
+        justify-content: center;
     }
     .iconsize {
         width: 2.5rem;
         height: 2.5rem;
         margin-right: 1rem;
         margin-left: 1rem;
+        font-size: 2.5rem;
     }
 }
 
@@ -244,12 +244,6 @@
     }
     .footer_container {
         padding: 6vh 5vw;
-    }
-    .iconsize {
-        width: 2.5rem;
-        height: 2.5rem;
-        margin-right: 1rem;
-        margin-left: 1rem;
     }
     .animatelotus_container {
         width: 27rem;
@@ -306,7 +300,8 @@
         font-size: 0.8rem !important;
     }
     .iconsize {
-        width: 1.8rem;
-        height: 2.5rem;
+        width: 2rem;
+        height: 2rem;
+        font-size: 2rem;
     }
 }

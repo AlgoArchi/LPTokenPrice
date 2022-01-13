@@ -12,10 +12,8 @@ function FooterPart() {
             <footer className='footer_container'>
                 <FaDiscord color="white" className="iconsize" />
                 <FaTelegramPlane color="white" className="iconsize" />
-                <FaTwitter color="white" className="iconsize" />
-                {/*<a className='instagram'>    
-                    <i className='fab fa-instagram iconsize'></i>
-                </a>*/}
+                <FaTwitter color="white" className="iconsize" />   
+                <i className='fab fa-instagram iconsize'></i>
                 <ImFacebook color="white" className="iconsize" />
                 <img src={Opensea} alt='Opensea' className="iconsize" />
             </footer>
