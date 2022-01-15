@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>GetLPTokenPrice</title>
+	<link rel="stylesheet" type="text/css" href="./js/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="col-sm-12">
+		<div class="form-group">
+		  <label for="exchange"></label>
+		  <select class="form-control" id="exchange">
+		    <option value="1">Uniswap</option>
+		    <option value="2">Pancakeswap</option>
+		    <option value="3">Compound</option>
+		    <option value="4">Curve</option>
+		  </select>
+		</div>
+		<div class="form-group">
+		  <button  class="btn btn-primary col-sm-12" id="start">Get Price</button>
+		</div>
+		<div class="col-sm-12" style="text-align: center;" id="result">
+			<br><br><br>
+			<p id="title"></p>
+			<br><br>
+			<p id="price"></p>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script type="text/javascript" src="./js/bootstrap/4.0.0/js/bootstrap.js"></script>
+<!-- <script type="text/javascript" src="./GetLPToken.js"></script> -->
+
+<script>
+		
+	$("#exchange").change(function(){
+		$("#title").html('');
+		$("#price").html('');
+	})
+	$("#start").click(function(){
+		var value = $("#exchange").val();
+		$("#title").html('Loading...');
+		$("#price").html('');
+		$(this).prop("disabled",true);
+		switch (value){
+			case '1':
+				$.ajax({ 
+			      url: "http://localhost:8080/uniswap", 
+				  type: "post", 
+			      success: function(responseData) { 
+			      	console.log(responseData);
+			      	html_content = '';
+			      	for (var i = 0; i < responseData.length; i++) {
+			      		if (responseData[i][3] != null){
+				      		html_content += '<span style="color:red">'+responseData[i][1]+'</span>/<span style="color:red">'+responseData[i][2]+'</span>='+responseData[i][0]+'<br>Price = '+responseData[i][3];
+				      		html_content += '<br>';
+				      	}
+			      	}
+					$("#title").html(html_content);								      	
+			      	$("#start").prop("disabled",false);
+			      }, 
+			      error: console.error 
+			    });
+				break;
+			case '2':
+				$.ajax({ 
+			      url: "http://localhost:8080/pancakeswap", 
+				  type: "post", 
+			      success: function(responseData) { 
+			      	html_content = '';
+			      	for (var i = 0; i < responseData.length; i++) {
+			      		if (responseData[i][3] != null){
+				      		html_content += '<span style="color:red">'+responseData[i][1]+'</span>/<span style="color:red">'+responseData[i][2]+'</span>='+responseData[i][0]+'<br>Price = '+responseData[i][3];
+				      		html_content += '<br>';
+				      	}
+			      	}
+					$("#title").html(html_content);
+				    $("#start").prop("disabled",false);
+			      }, 
+			      error: console.error 
+			    });
+				break;
+			default:
+				break;
+		}
+	})
+</script>
+</html>
